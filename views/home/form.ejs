@@ -1,0 +1,34 @@
+<%- include("../partials/header") %> 
+
+<h1>Please Fill in your details to <%= heading %> </h1>
+<main class="container">
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <form action="/<%= heading %> " method="POST">
+                <div class="mb-3">
+                    <label for="fname" class="form-label">First Name:</label>
+                    <input type="text" class="form-control shadow-none border-0" name="fname" id="fname" placeholder="First Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control shadow-none border-0" name="lname" id="lname" placeholder="Last Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number:</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text border-0" id="basic-addon1">+91</span>
+                        <input type="tel" name="phone" id="phone" max="10" min="0" class="form-control shadow-none border-0" placeholder="Phone Number"  aria-describedby="basic-addon1" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control shadow-none border-0" name="email" id="email" placeholder="Email" required>
+                    <span class="error" aria-live="polite"></span>
+                </div>
+                <center><button type="submit" class="btn text-white btn-small mt-5"><%= heading %> </button></center>
+            </form>
+        </div>
+    </div>
+</main>
+<%- include("../partials/footer") %> 
