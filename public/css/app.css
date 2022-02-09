@@ -33,3 +33,11 @@ input{
 #btn-1{
     float: right;
 }
+input[type="text"],input[type="email"],input[type="tel"] {
+
+  background-color : transparent; 
+  box-shadow: inset 1px 2px 4px #ff9f1c, 0px 0px 8px #ff9f1c;
+}
+.form-label{
+    color:white;
+}
