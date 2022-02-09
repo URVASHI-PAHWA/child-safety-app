@@ -2,9 +2,7 @@ body{
     background-image: url('https://wallpaperaccess.com/full/632787.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
-    height:100vh;
-    width:100vw;
+    overflow: hidden;
 }
 h2{
     color: white;
@@ -55,6 +53,14 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
     color:white;
 }
 @media (max-width:480px)  {
+    body{
+        background-image: url('https://wallpaperaccess.com/full/632787.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        height:100vh;
+        width:100vw;
+    }
     h2{
         color: white;
         text-align: center;
@@ -68,7 +74,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
         background-color: #ff9f1c;
         font-weight: bold;
         height:10vh;
-        width: 16vw;
+        width: 20vw;
         box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
         margin:20px;
     }
