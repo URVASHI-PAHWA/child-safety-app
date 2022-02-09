@@ -15,6 +15,7 @@ h2{
 }
 h1{
     color: white;
+    text-shadow: #ff9f1c 1px 0 10px;
     text-align: center;
     margin: 40px;
     text-transform: uppercase;
