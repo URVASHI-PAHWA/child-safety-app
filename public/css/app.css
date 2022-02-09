@@ -21,10 +21,12 @@ h1{
     text-transform: uppercase;
 }
 .btn{
+    display:flex;
     background-color: #ff9f1c;
     font-weight: bold;
     height:10vh;
     width: 8vw;
+    box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
 }
 .btn:focus{
     box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
@@ -33,8 +35,7 @@ input{
     background-color: transparent;
     /* padding: 1rem; */
 }
-#btn-1{
-    float: right;
+#btn-1:focus{
     box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
 }
 input[type="text"],input[type="email"],input[type="tel"] {
