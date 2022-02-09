@@ -26,17 +26,27 @@ h1{
     height:10vh;
     width: 8vw;
 }
+.btn:focus{
+    box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
+}
 input{
     background-color: transparent;
     /* padding: 1rem; */
 }
 #btn-1{
     float: right;
+    box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
 }
 input[type="text"],input[type="email"],input[type="tel"] {
-
   background-color : #ff9f1c; 
-  box-shadow: inset 1px 2px 4px #ff9f1c, 0px 0px 8px #ff9f1c;
+  box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="tel"]::placeholder{
+  color:white;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
+  background-color : #ff9f1c; 
+  box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
 }
 .form-label{
     color:white;
