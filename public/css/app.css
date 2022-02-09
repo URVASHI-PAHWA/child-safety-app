@@ -79,7 +79,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
         margin:20px;
     }
 }
-@media (max-width:600px)  {
+@media (max-width:768px)  {
     body{
         background-image: url('https://wallpaperaccess.com/full/632787.jpg');
         background-repeat: no-repeat;
