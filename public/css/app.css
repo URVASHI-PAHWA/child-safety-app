@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
 }
 h2{
-    color: #2ec4b6;
+    color: white;
     text-align: center;
     margin-top: 250px;
     text-transform: uppercase;
@@ -14,7 +14,7 @@ h2{
     text-shadow: #ff9f1c 1px 0 10px;
 }
 h1{
-    color: #2ec4b6;
+    color: white;
     text-align: center;
     margin: 40px;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ h1{
     width: 8vw;
 }
 input{
-    background-color: #cbf3f0;
+    background-color: transparent;
     /* padding: 1rem; */
 }
 #btn-1{
