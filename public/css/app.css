@@ -1,5 +1,7 @@
 body{
-    background-color: #cbf3f0;
+    background-image: url('https://i.pinimg.com/736x/c5/1a/9e/c51a9e701f154ca1e9bd2edb9cfb3e2a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 }
 h2{
