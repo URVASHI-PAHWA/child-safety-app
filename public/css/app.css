@@ -73,7 +73,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
     .btn{
         background-color: #ff9f1c;
         font-weight: bold;
-        height:10vh;
+        height:6vh;
         width: 25vw;
         box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
         margin:20px;
