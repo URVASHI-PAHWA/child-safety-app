@@ -54,7 +54,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
 .form-label{
     color:white;
 }
-@media (min-width:480px)  {
+@media (max-width:480px)  {
     h2{
         color: white;
         text-align: center;
