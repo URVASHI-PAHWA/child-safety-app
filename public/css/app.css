@@ -52,36 +52,8 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
 .form-label{
     color:white;
 }
- @media only screen and (max-width : 320px) {
-        body{
-        background-image: url('https://wallpaperaccess.com/full/632787.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        height:100vh;
-        width:100vw;
-    }
-    h2{
-        color: white;
-        text-align: center;
-        margin-top: 250px;
-        text-transform: uppercase;
-        font-size: 60px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-shadow: #ff9f1c 1px 0 10px;
-    }
-    .btn{
-        background-color: #ff9f1c;
-        font-weight: bold;
-        height:10vh;
-        width: 30vw;
-        box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
-        margin:10px;
-    }
-    }
-
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width:320px) and (max-width : 480px) {
+    @media (max-width : 480px) {
         body{
         background-image: url('https://wallpaperaccess.com/full/632787.jpg');
         background-repeat: no-repeat;
@@ -110,7 +82,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width:480px) and (max-width : 768px) {
+    @media and (max-width : 768px) {
         body{
         background-image: url('https://wallpaperaccess.com/full/632787.jpg');
         background-repeat: no-repeat;
@@ -136,33 +108,4 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
         box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
         margin:20px;
     }
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width:768px) and (max-width : 992px) {
-        body{
-        background-image: url('https://wallpaperaccess.com/full/632787.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow-x: hidden;
-        height:100vh;
-        width:100vw;
-    }
-    h2{
-        color: white;
-        text-align: center;
-        margin-top: 250px;
-        text-transform: uppercase;
-        font-size: 70px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-shadow: #ff9f1c 1px 0 10px;
-    }
-    .btn{
-        background-color: #ff9f1c;
-        font-weight: bold;
-        height:6vh;
-        width: 30vw;
-        box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
-        margin:10px;
-    }
-    }
+}
