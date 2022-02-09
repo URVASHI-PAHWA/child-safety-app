@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    height:100vh;
+    width:100vw;
 }
 h2{
     color: white;
@@ -51,4 +53,23 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="tel"]:focus {
 }
 .form-label{
     color:white;
+}
+@media (min-width:480px)  {
+    h2{
+        color: white;
+        text-align: center;
+        margin-top: 250px;
+        text-transform: uppercase;
+        font-size: 70px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: #ff9f1c 1px 0 10px;
+    }
+    .btn{
+        background-color: #ff9f1c;
+        font-weight: bold;
+        height:10vh;
+        width: 16vw;
+        box-shadow: inset 1px 2px 4px white, 0px 0px 8px white;
+        margin:20px;
+    }
 }
